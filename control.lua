@@ -128,7 +128,7 @@ script.on_event(prototypes.custom_input["split-conditions"], function (event)
       ---@type BlueprintWire[]?
       local wires
       if entity_number == 1 then
-        --TODO: loopback wires if the original had them
+        -- loopback wires if the original had them
         local green_in = from.get_circuit_network(defines.wire_connector_id.combinator_input_green)
         local green_out = from.get_circuit_network(defines.wire_connector_id.combinator_output_green)
         if green_in and green_out and green_in.network_id == green_out.network_id then
