@@ -2,9 +2,9 @@
     "name": "or-extractor",
     "title": "Or Extractor",
     "description": "Tools to merge and split complex Decider Combinator condition groups",
-    "version": "2.0.2",
+    "version": "2.1.0",
     "author": "justarandomgeek",
-    "factorio_version": "2.0",
+    "factorio_version": "2.1",
     "package": {
         "sync_portal_details": true
     }
