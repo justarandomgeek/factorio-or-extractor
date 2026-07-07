@@ -1,3 +1,5 @@
+---@namespace or-extractor
+
 script.on_event(prototypes.custom_input["append-conditions"], function (event)
   local player = game.get_player(event.player_index)
   ---@cast player -?
